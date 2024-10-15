@@ -1,0 +1,55 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet"  type="text/css" href="../css/estilos.css">
+  <link rel="stylesheet"  type="text/css" href="../css/EstilosFor.css">
+ <title>Formulario HTML</title>
+
+</head>
+<body>
+
+<center><font color="red" size="20">Formulario de contacto</font></center>
+
+<form action="procesar.php" method="POST">
+  <center><img src="../img/contactenos.jpg" width="60" height="60"></center>
+  
+  <label for="nombre">Nombres:</label>
+  <input type="text" placeholder="escribe tu nombre"  id="nombre" name="nombre" required><br><br>
+  <label for="Apellido">Apellidos:</label>
+  <input type="text" placeholder="escribe tu Apellido"  id="Apellido" name="Apellido" required><br><br>
+
+  <label for="Direccion">Dirección:</label>
+
+  <input type="text" placeholder="escribe tu Direccion"  id="Direccion" name="Direccion" required><br><br>
+  <label for="email">Email:</label>
+  
+  
+  <input type="email" id="email" name="email" required><br><br>
+ 
+
+<font style=color:white; size=4>Seleccione una de las siguientes alternativas propuestas para destino de viaje de Promoción</style></font><br><br>
+
+  <label for="destino">Destino:</label>
+
+  <select id="Destino" name="Destino">
+	<option value="Cuzco">Cuzco</option>
+	<option value="Lima">Lima</option>
+	<option value="Ayacucho">Ayacucho</option>
+	<option value="Arequipa">Arequipa</option>
+</select><br><br>
+<label for="Sugerencias">Sugerencias:</label>
+
+<textarea id="Sugerencias" name="Sugerencias" required></textarea><br><br>
+
+<label for="enviar"></label>
+  
+<input type="submit" value="Enviar" id="enviar"><br><br>
+
+
+
+
+</form>
+
+</body>
+
+</html>

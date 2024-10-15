@@ -1,0 +1,88 @@
+body{
+	font-family: tahoma;
+	background: #485563;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	
+}
+.menu ul {
+	         display:flex;
+	         padding :0;
+	         margin :0;
+	         list-style: none;
+          }
+.menu  a {
+	        display:block;
+	        padding: 0.5em;
+			margin: .25rem;
+	        background-color:#0000;
+	        text-decoration:none;
+	        color:rgb(0, 132, 255);
+	        font-size: 1.2rem;
+	        font-family: tahoma;
+			font-weight: 500;
+			font-stretch: medium;
+         }
+ .menu a:hover {
+ 	        background-color: rgba(0, 140, 255, 0.153);
+			border-bottom: 1px solid rgba(107, 107, 255, 0.111);
+			transition:  .8s;
+               }
+ .menu  ul li ul {
+ 	        display: none;
+               }
+ .menu ul li a:hover + ul, .menu ul li ul:hover {
+ 	        display: block;
+               }
+.imgf{
+	margin-top: 25px;
+	margin-left: 10px;
+}
+.imgi{
+	margin-top: 25px;
+	padding: 3px;
+}
+.imgy{
+	margin-top: 5px;
+}
+.logo1{
+	padding: 20px;
+	margin: 5px;
+}
+
+
+.h1_1 {
+	justify-content: center;
+	padding: 10px;
+	font-weight: 500;
+}
+.h2_1{
+	justify-content: center;
+	padding: 10px;
+	font-weight: 500;
+}
+
+
+.h1_2 {
+	justify-content: center;
+	padding: 20px;
+	font-weight: 500;
+}
+.h2_2{
+	justify-content: center;
+	padding-top: -20px;
+	font-weight: 500;
+}
+
+.pc{
+	padding: 15px;
+	justify-content: center;
+}
+.img11{
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
+.img12{
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+}
